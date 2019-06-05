@@ -174,14 +174,14 @@ def user_stats(df, city):
 
     # Display counts of user types
     user_types = df['User Type'].value_counts()
-    print("There were {} Customers and {} Subscribers".format(user_types['Customer'],user_types['Subscriber'] ))
+    print("There were {} customers and {} subscribers".format(user_types['Customer'],user_types['Subscriber'] ))
 
     # Display counts of gender
     if city == 'washington':
         print("No gender information available for Washington")
     else:
         gender = df['Gender'].value_counts()
-        print("There were {} Female and {} Male riders".format(gender['Female'], gender['Male']))
+        print("There were {} female and {} male riders".format(gender['Female'], gender['Male']))
 
     # Display earliest, most recent, and most common year of birth
     if city == 'washington':
