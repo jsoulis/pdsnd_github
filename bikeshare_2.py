@@ -23,7 +23,8 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input('Please enter a city! Choose between Chicago, New York City and Washington: ')
-        city = city.strip().lower()
+        city = city.strip()
+        city = city.lower()
         if city in cities:
             break
         else: 
@@ -33,7 +34,8 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     while True:
         month = input('Please enter a month to filter on. Please choose "all" or Jan, Feb, Mar, Apr, May, or Jun: ')
-        month = month.strip().lower()
+        month = month.strip()
+        month = month.lower()
         if month in months or month == 'all':
             break
         else:
@@ -42,7 +44,8 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input('Please enter a day to filter on. Please choose "all" or Mon, Tue, Wed, Thu, Fri, Sat or Sun: ')
-        day = day.strip().lower()
+        day = day.strip()
+        day = day.lower()
         if day in days or day == 'all':
             if day != 'all':
                 day = days[day]
