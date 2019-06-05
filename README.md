@@ -4,7 +4,7 @@
 This project was created on May 25, 2019. 
 
 ### Description
-Descriptive statistics and some simple analytics of bikeshare data for Chicaco, Washington and New York City are returned to the user. The user can filter data by city, day of the week, month, and year.
+Descriptive statistics and some _simple_ analytics of bikeshare data for **Chicaco**, **Washington** and **New York City** are returned to the user. The user can filter data by city, day of the week, month, and year.
 
 ### Files used
 The main files for this project are as follows:
