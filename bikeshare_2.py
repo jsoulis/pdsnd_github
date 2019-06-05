@@ -192,6 +192,7 @@ def user_stats(df, city):
     print('-'*40)
 
 def display_data(df):
+    """Display 5 lines of raw data to users"""
     status = 'no'
     status = input('\nWould you like to see 5 lines of raw data? Enter yes or no\n')
     index = 0
